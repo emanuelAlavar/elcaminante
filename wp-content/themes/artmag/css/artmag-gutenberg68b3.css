@@ -1,0 +1,235 @@
+.editor-styles-wrapper {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.editor-styles-wrapper a {
+  color: #333;
+  text-decoration: none;
+}
+
+.editor-styles-wrapper p {
+  margin-bottom: 25px;
+}
+
+.editor-styles-wrapper blockquote p {
+  margin-bottom: 0px;
+}
+
+.editor-styles-wrapper ul {
+  list-style-type: disc;
+}
+
+.editor-styles-wrapper ul li ul {
+  list-style-type: circle;
+  margin-left: 10px;
+}
+
+ul.wp-block-categories-list,
+.wp-block-categories__list,
+ul.wp-block-categories-list li ul {
+  list-style-type: none;
+}
+
+.wp-block-button__link a {
+  color: #FFF;
+}
+
+pre h2,
+pre cite {
+  font-family: "Georgia", Courier, monospace !important;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ol strong {
+  padding: 0;
+}
+
+big {
+  font-size: 18px;
+}
+
+em {
+  font-style: italic;
+}
+
+kbd {
+  padding: 5px;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.editor-styles-wrapper h1 {
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 40px 0 20px 0 !important;
+}
+
+.editor-styles-wrapper h2 {
+  font-size: 26px;
+  line-height: 1.5;
+  margin: 40px 0 20px 0 !important;
+}
+
+.editor-styles-wrapper h3 {
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 40px 0 20px 0 !important;
+}
+
+.editor-styles-wrapper h4 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 40px 0 20px 0 !important;
+}
+
+.editor-styles-wrapper h5 {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 40px 0 20px 0 !important;
+}
+
+.editor-styles-wrapper h6 {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 40px 0 20px 0 !important;
+}
+
+blockquote,
+.wp-block-quote,
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large,
+.wp-block-pullquote {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 50px 40px;
+  margin: 30px 0;
+  border: 0;
+}
+
+.wp-block-pullquote {
+  padding: 0;
+}
+
+.wp-block-button a {
+  padding: 8px 18px;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+  border: 0;
+}
+
+blockquote cite,
+.wp-block-quote .wp-block-quote__citation {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+.editor-styles-wrapper .alignright {
+  float: right;
+  text-align: right;
+  margin: 20px 0 20px 30px;
+}
+
+.editor-styles-wrapper .alignleft {
+  float: left;
+  text-align: left;
+  margin: 20px 30px 20px 0;
+}
+
+figure blockquote {
+  margin: 0;
+}
+
+pre {
+  padding: 20px;
+  font-family: "Georgia", Courier, monospace;
+  line-height: 1.5;
+  overflow: auto;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.editor-styles-wrapper hr,
+hr.wp-block-separator {
+  max-width: 100px;
+  margin: 40px auto;
+  background: transparent;
+  border-top: 0;
+  border-bottom: 2px solid #8f98a1;
+  clear: both;
+}
+
+.wp-block-subhead {
+  color: #999;
+}
+
+ul.wp-block-latest-posts {
+  list-style-type: none;
+}
+
+.wp-block-latest-posts a {
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px 20px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.wp-block-latest-posts.is-grid a {
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+table .wp-block-table__cell-content {
+  padding: 0;
+}
+
+table thead {
+  border: 0;
+  border-bottom: solid 2px #ddd;
+}
+
+table thead,
+table tbody tr:first-child td {
+  font-weight: 600;
+}
+
+table td,
+table th {
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+table thead th,
+table tbody tr:first-child td {
+  border: 0;
+  border-bottom: solid 2px #ddd;
+}
+
+/* Large devices (Big Tablets, 991px and up) */
+@media only screen and (min-width: 991px) {
+  .wp-block-image .alignleft {
+    margin-left: -7vw;
+  }
+  .wp-block-image .alignright {
+    margin-right: -7vw;
+  }
+}
+/*# sourceMappingURL=artmag-gutenberg.css.map */
